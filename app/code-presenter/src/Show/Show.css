@@ -1,0 +1,53 @@
+.code-lines>span {
+    line-break: auto;
+}
+
+.code-lines.display-numbers>span::before {
+    content: " " attr(data-line) " ";
+}
+
+.show-code-box {
+    padding: 1em 0 0.5em 0em;
+}
+
+.show-code{
+    background: #464646e6;
+    color: #ffffff;
+    padding: 1em 3em;
+}
+
+.lists{
+    padding: 0.5em 0em;
+}
+
+.list{
+    display: flex;
+    padding: 0.1em 0em;
+    color: #ffffff;
+}
+
+.list-title {
+    background: #525847;
+    padding: 0.5em 0.5em 0.4em 1em;
+    display: inline-block;
+    box-sizing: border-box;
+    width: calc( 5em + 50px );
+}
+
+.list-elements{
+    display: inline-flex;
+    box-sizing: border-box;
+    padding: 0.3em 0.5em 0.4em .5em;
+    flex-grow: 2;
+    background: #535847ba;
+}
+
+.list-element{
+    background: #de7e1c;
+    padding: 0.2em 0.5em 0.3em 0.5em;
+    text-align: start;
+    vertical-align: top;
+    border-radius: 2px;
+    font-size: 0.8em;
+    margin-right: 0.2em;
+}

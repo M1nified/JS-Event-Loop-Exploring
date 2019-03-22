@@ -1,5 +1,16 @@
+html, body {
+  /* https://www.cssmatic.com/gradient-generator#'\-moz\-linear\-gradient\%28\-45deg\%2C\%20rgba\%28210\%2C255\%2C82\%2C1\%29\%200\%25\%2C\%20rgba\%28145\%2C232\%2C66\%2C1\%29\%20100\%25\%29\%3B' */
+  background: rgba(210,255,82,1);
+  background: linear-gradient(135deg, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  height: 100%;
+  overflow: hidden;
+
+  font-size: 25px;
+
+}
+
 .App {
-  text-align: center;
+  /* background-color: #282c34; */
 }
 
 .App-logo {
